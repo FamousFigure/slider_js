@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap');
+
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-orange: #E3B873;
+  }
+main {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    overflow-y: hidden;
+    position: relative;
+    margin: 107px 135px 124px 134px;
+    width: 1171px;
+    height: 552px;
+}
+.main__line {
+    display: inline-block;
+    margin-left: 45px;
+    bottom: 11px;
+    position: relative;
+}
+
+html {
+    background:#131313;
+}
+
+.main__completed-projects {
+    font-family: "Yeseva One";
+    color: var(--color-orange);
+    float: left;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+.main__discribe-text {
+    font-family: "Nunito Sans";
+    color: #FFF;
+    font-size: 14px;
+    margin-top: 90px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.main__discribe-uppercase {
+    color: var(--color-orange);
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "Yeseva One";
+    margin-bottom: 9px;
+}
+
+.main__discribe-lowercase {
+    color: #FFF;
+    font-size: 13px;
+    line-height: 21px;
+    font-family: "Nunito Sans";
+    font-weight: 400;
+}
+
+.second-column {
+    position: relative;
+    left: 34px;
+}
+
+.main__columns {
+    margin-top: 42px;
+    display: flex;
+}
+
+span {
+    display: block
+}
+
+button {
+    background: #131313;
+    border: none;
+}
+
+.main__slider_arrow-left {
+    margin-right: 30px;
+}
+
+.main__slider_arrow-right {
+    margin-left: 30px;
+}
+
+.main__slider_second-circle {
+    margin: 0px 18px;
+}
+
+.main__cities {
+    font-family: "Yeseva One";
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    margin-left: 492px;
+    margin-bottom: 45px;
+}
+
+.not_active  {
+    color: #FFF;
+    opacity: 30%;
+}
+
+.active {
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    color: var(--color-orange);
+}
+
+.active, .not_active {
+    margin-right: 61px;
+    text-wrap: nowrap;
+}
+
+.flat {
+    display: none;
+    float: right;
+    width: 679px;
+    height: 482px;
+}
+
+.block {
+    display: block;
+}
+
+.slider {
+    position: absolute;
+    bottom: 0;
+}

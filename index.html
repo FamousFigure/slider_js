@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="main__completed-projects">
+                <span>COMPLETED</span>
+                <span>PROJECTS<div class="main__line">_________</div></span>
+            </div> 
+            <div class="main__cities">
+                <div class="ADMIRAL active">ROSTOV-ON-DON, ADMIRAL</div>
+                <div class="SOCHI_THIEVES not_active">SOCHI THIEVES</div>
+                <div class="PATRIOTIC not_active">ROSTOV-ON-DON PATRIOTIC</div>
+            </div>
+            <div class="img_wrapper">
+                <img class="flat block first_flat" src="images/flat_one.png" alt="1квартира">
+                <img class="flat second_flat" src="images/flat_two.png" alt="2квартира">
+                <img class="flat third_flat" src="images/flat_three.png" alt="3квартира">
+            </div>
+            <div class="discribe">
+                <span class="main__discribe-text">Only a small part of the wor performed by our company is
+                    presented<br> on the site. For 14 years on in the construction<br> 
+                   market we have made happy more than 1000 families</span>
+                   <div class="main__columns">
+                        <div class="first-column">
+                            <span class="main__discribe-uppercase">CITY:</span>
+                            <span class="main__discribe-lowercase city">Rostov-on-Don</span>
+                            <h4 style="margin-bottom: 34px; font-weight: 400" class="main__discribe-lowercase place">LCD admiral</h4><br>
+                            <span class="main__discribe-uppercase">REPAIR TIME:</span>
+                            <span class="main__discribe-lowercase time">3.5 month</span>
+                        </div>
+                        <div class="second-column">
+                            <span class="main__discribe-uppercase">APARTMENT AREA:</span>
+                            <h1 style="margin-bottom: 55px;" class="main__discribe-lowercase area">81 m2</h1><br>
+                            <span class="main__discribe-uppercase">REPAIR COST:</span>
+                            <span class="main__discribe-lowercase">Upon Request</span>
+                        </div>
+                   </div>
+            </div>
+            <div class="slider">
+                <button class="main__slider_arrow-left">
+                    <img src="images/arrow-left.svg" alt="предыдущий">
+                </button>
+                <button>
+                    <img class="main__slider_first-circle" src="images/white-circle.svg">
+                </button>
+                <button>
+                    <img  class="main__slider_second-circle" src="images/black-circle.svg">
+                </button>
+                <button>
+                    <img class="main__slider_third-circle" src="images/black-circle.svg">
+                </button>
+                <button class="main__slider_arrow-right">
+                    <img src="images/arrow-right.svg" alt="предыдущий">
+                </button>
+            </div>
+        </main>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
